@@ -38,7 +38,7 @@ class ModelTest extends TestCase
     /**
      * Sets up the exception.
      */
-    public function setUp()
+    public function setUp():void
     {
         $this->object = new StubModel();
     }

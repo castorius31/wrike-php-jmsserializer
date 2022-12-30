@@ -56,7 +56,7 @@ class ResourceModelTransformerTest extends ResponseTransformerTestCase
 {
     const VALID_ID = 'valid_id';
 
-    public function setUp()
+    public function setUp():void
     {
         $serializer = SerializerFactory::create();
         $this->object = new ResourceModelTransformer($serializer);

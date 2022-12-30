@@ -39,7 +39,7 @@ abstract class ResourceModelTestCase extends TestCase
     /**
      * Sets up the exception.
      */
-    public function setUp()
+    protected  function setUp():void
     {
         $this->object = new $this->sourceClass();
     }

@@ -42,7 +42,7 @@ abstract class ResponseModelTestCase extends TestCase
     /**
      * Sets up the exception.
      */
-    public function setUp()
+    public function setUp():void
     {
         $this->object = new $this->sourceClass();
     }
